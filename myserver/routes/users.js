@@ -3,10 +3,10 @@ var router = express.Router();
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
-  res.send('Got a GET request');
+  res.send({'message':'Got a POST request', 'contents':'req'});
 });
 router.post('/', function(req, res, next) {
-    res.send('Got a POST request');
+    res.send({'message':'Got a POST request', 'contents':'req'});
   });
   router.put('/user', function(req, res, next) {
     res.send('Got a PUT request at /user');
