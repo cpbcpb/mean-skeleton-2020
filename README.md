@@ -40,6 +40,10 @@ DEBUG=myserver:* npm start
 set DEBUG=myserver:* & npm start
 ```
 
+## Testing routes
+
+You can use Postman to test routes.
+
 ## Created
 
 Created by Christine Beck. Started Feb 7, 2020.  Used documentation from Expressjs.com, Angular, Mongodb, and Nodejs as references.
