@@ -1,8 +1,8 @@
 {
   "name": "mean-skeleton",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A Mean Stack Skeleton with up to date Express, Angular, Mongodb and Node versions as of Jan 2020",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
